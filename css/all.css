@@ -33,7 +33,7 @@
     padding-left: 10px;
     color:#A00404;
 }
-.personal-profile p,.personal-education li,.personal-skills li,
+.personal-profile li,.personal-education li,.personal-skills li,
 .personal-workexperience li{
     font-size: 24px;
 }
@@ -44,24 +44,23 @@
     background-color: #415165;
     text-align: center;
     color: #fff;
-    padding: 25px 455px;
+    padding: 25px 0px;
     margin-top: 60px;
 }
 .personal-skills h2,.footer h2{
     border-bottom: 1px solid #fff;
     padding-bottom: 25px;
-    padding-left: 35px;
     font-size: 32px;
+    margin-bottom: 25px;
 }
 .personal-skills span,.footer span{
     margin-left: 15px;
     font-size: 24px;
 }
 .personal-skills ul{
-    text-align: center;
-    margin-top: 25px;
     border-left: 1px solid #96A9C4;
-    margin-left: 405px;
+    width: 225px;
+    margin: 0 auto;
 }
 .personal-skills ul li {
     text-align: left;
@@ -73,10 +72,13 @@
     margin-left: 20px;
     margin-top: 15px;
     padding-left: 20px;
-    padding-right: 500px;
+    /* padding-right: 500px; */
 }
 .personal-workexperience li{
     padding: 10px 0;
+}
+.personal-workexperience li h3{
+    font-size: 24px;
 }
 .personal-workexperience img{
     margin-top: 12px;
@@ -91,12 +93,16 @@
     font-size: 24px;
 }
 .footer li{
-    padding-top: 15px;
+    margin-bottom: 15px;
 }
-.footer-img ul{
+.footer li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .footer-img{
     display: flex;
     justify-content: center;
 }
-.footer-img ul li{
+.footer .footer-img li{
     padding: 15px 10px 0;
 }
