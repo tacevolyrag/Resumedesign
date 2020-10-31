@@ -40,12 +40,15 @@
 .personal-workexperience p{
     font-size: 20px;
 }
+.personal-education li:nth-child(1){
+    margin-bottom: 24px;
+}
 .personal-skills,.footer{
     background-color: #415165;
     text-align: center;
     color: #fff;
     padding: 25px 0px;
-    margin-top: 60px;
+    margin-top: 72px;
 }
 .personal-skills h2,.footer h2{
     border-bottom: 1px solid #fff;
@@ -84,9 +87,6 @@
 }
 .footer{
     padding: 25px 350px;
-}
-.footer h2{
-    padding-left: 0;
 }
 .footer ul{
     font-size: 24px;
